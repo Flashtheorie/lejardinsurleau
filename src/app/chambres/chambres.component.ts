@@ -13,7 +13,7 @@ export class ChambresComponent implements OnInit {
     'prix': '65€ / nuit'
   },
 {
-  'nom' : 'Amélie',
+  'nom' : 'Amelie',
   'description' : 'Une jolie fleur de java',
   'image' : 'assets/amelie.jpg',
   'prix': '65€ / nuit'
