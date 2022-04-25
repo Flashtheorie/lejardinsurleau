@@ -11,7 +11,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ChambrejustineComponent } from './chambrejustine/chambrejustine.component';
 import { ChambreamelieComponent } from './chambreamelie/chambreamelie.component';
 import { ChambrecharlotteComponent } from './chambrecharlotte/chambrecharlotte.component';
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +26,8 @@ import { ChambrecharlotteComponent } from './chambrecharlotte/chambrecharlotte.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

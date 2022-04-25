@@ -1,5 +1,7 @@
 .hero img {
-    height: auto;
+    height: 100%;
+    position: absolute;
+    top: 0;
   }
   
   .heading-container {

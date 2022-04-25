@@ -8,21 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class ChambresComponent implements OnInit {
   chambres = [{
     'nom' : 'Justine',
-    'description' : 'Une jolie fleur de java',
+    'description' : 'Description de la chambre ',
     'image' : 'assets/justine.jpg',
-    'prix': '65€ / nuit'
+    'prix': '99€ / nuit'
   },
 {
   'nom' : 'Amelie',
-  'description' : 'Une jolie fleur de java',
+  'description' : 'Description de la chambre ',
   'image' : 'assets/amelie.jpg',
-  'prix': '65€ / nuit'
+  'prix': '150€ / nuit'
 },
  {
   'nom' : 'Charlotte',
-  'description' : 'Une jolie fleur de java',
+  'description' : 'Description de la chambre ',
   'image' : 'assets/charlotte.jpg',
-  'prix': '65€ / nuit'
+  'prix': '2000€ / nuit'
  }
 
 ]
